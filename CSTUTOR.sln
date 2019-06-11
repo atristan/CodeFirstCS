@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{B0AA8886-D7D4-4A63-AE2E-83F1E6A538A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID", "SOLID\SOLID.csproj", "{1F40498D-6CD9-4804-8F6E-E712611B7755}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructuresAndAlgorithms", "DataStructuresAndAlgorithms\DataStructuresAndAlgorithms.csproj", "{ED3E2AF6-D297-4A5F-B5A8-AC96DB80AA95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F40498D-6CD9-4804-8F6E-E712611B7755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F40498D-6CD9-4804-8F6E-E712611B7755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F40498D-6CD9-4804-8F6E-E712611B7755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F40498D-6CD9-4804-8F6E-E712611B7755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED3E2AF6-D297-4A5F-B5A8-AC96DB80AA95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED3E2AF6-D297-4A5F-B5A8-AC96DB80AA95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED3E2AF6-D297-4A5F-B5A8-AC96DB80AA95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED3E2AF6-D297-4A5F-B5A8-AC96DB80AA95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C4C3875-3A9A-4B7F-9383-6EAEA4ABC6F5}
+	EndGlobalSection
+EndGlobal

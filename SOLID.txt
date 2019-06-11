@@ -1,0 +1,33 @@
+WHAT ARE THE SOLID PRINCIPLES?
+
+S - Single Responsibility
+O - Open/Closed
+L - Liskov Substitution
+I - Interface Segregation
+D - Dependency Inversion
+
+The Single Responsibility Principle (SRP)
+* Every module or class should have responsibility over a single part of the functionality provided by the software and that responsiblity should be entirely encapsulated by the class.
+* All services should be narrowly aligned with that responsibility.
+* There shouldn't be more than one reason for a class to change OR a class should always handle single functionality
+* Adding more than one function or operation to a class introduces coupling between the two functions
+
+The Open/Closed Principle (OCP)
+* Software entities (classes, modules, functions, etc.) should be open for extension but closed for modification
+* A class's behavior can be extended but should not change underlying source code
+
+The Liskov Substitution Principle (LSP)
+* Introduced by Barbara Liskov in 1987
+* If S is a subtype of T, then objects of type T in a program may be replaced by objects of type S without altering any of the desireable properties of that program.
+* To implement this principle, make sure that the subtypes respect the parent class.
+
+The Interface Segregation Principle (ISP)
+* No client should be forced to depend on methods it does not use.
+* ISP splits interfaces which are very large into smaller more specific ones so clients will only have to know about the methods that are of interest to them.
+* ISP is intended to keep a system decoupled and easier to refactor, change and redeploy
+
+The Dependency Inversion Principle (DIP)
+* Refers to a specific form of decoupling software modules.
+* High-level modules should not depend on low-level modules; both should depend on abstractions.
+* Abstractions should not depend on details; details should depend on abstractions.
+* DIP helps you to develop loosely coupled code by ensuring that the high-level modules depend on abstractions rather than concrete implementations of lower-level modules.
